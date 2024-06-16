@@ -1,0 +1,34 @@
+/* using 7-1 architecture */
+
+// base: basic design principle
+@import "base/animation";
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+@import "base/utility";
+
+// components: reusable components
+@import "components/alerts";
+@import "components/button";
+@import "components/label";
+@import "components/profile-card";
+@import "components/story";
+
+// abstracts: utility classes
+@import "abstracts/colors";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// layout: layout styles
+@import "layout/default";
+@import "layout/navbar";
+
+// pages: page-specific styles
+@import "pages/home";
+
+// themes: theme files
+@import "themes/dark-theme";
+@import "themes/light-theme";
+
+// vendors: third-party styles
+@import "vendors/glassmorphism-effect";

@@ -1,0 +1,18 @@
+/* FONT FAMILIES */
+
+//italics
+@font-face {
+  font-family: "italic";
+  src: ("./assets/fonts/JetBrainsMono-Italic.woff2") format("woff2");
+}
+
+.font-t-i {
+  color: red;
+  font-size: 35px;
+}
+
+p {
+  font-family: "italic";
+  color: blue;
+  font-size: 35px;
+}
